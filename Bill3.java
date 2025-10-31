@@ -12,7 +12,7 @@ public class Bill3 {
         // Calculate each person's share rounded up
         double share = Math.ceil((double)value / 3);
         
-		System.out.println("Dear " + name1 + ", " + name2 + " and " + name3 + " each owes: " + share);
+		System.out.println("Dear " + name3 + ", " + name2 + " and " + name1 + ": pay " + share + " Shekels each");
         
 
         

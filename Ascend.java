@@ -4,15 +4,16 @@
 // and prints them in increasing order.
 public class Ascend {
 	public static void main(String[] args) {
-		int num1 = (int)(Math.random() * 10);
-		int num2 = (int)(Math.random() * 10);
-        int num3 = (int)(Math.random() * 10);
+		int a = (int)(Math.random() * 10);
+		int b = (int)(Math.random() * 10);
+        int c = (int)(Math.random() * 10);
 
-		int min = Math.min(num3 , Math.min(num1 , num2));
-		int max = Math.max(num3 , Math.max(num1 , num2));
+		int min = Math.min(c , Math.min(a , b));
+		int max = Math.max(c , Math.max(a , b));
 		
-        int mid = (num1 + num2 + num3) - (max + min);
-
+        int mid = (a + b + c) - (max + min);
+        
+		System.out.println(a + " " + b + " " + c);
 	    System.out.println(min + " " + mid + " " + max);
 	}
 }
