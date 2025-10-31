@@ -1,6 +1,4 @@
 
-import com.sun.jdi.event.BreakpointEvent;
-import javax.lang.model.util.ElementScanner14;
 
 // Generates three integer random numbers in a given range,
 // and prints them in increasing order.
