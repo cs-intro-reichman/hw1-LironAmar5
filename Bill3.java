@@ -12,7 +12,7 @@ public class Bill3 {
         
         double share = Math.ceil((double)value / 3);
         
-		System.out.println("Dear " + c + ", " + b + " and " + a + ": pay " + share + " Shekels each.");
+		System.out.println("Dear " + c + ", " + b + ", and " + a + ": pay " + share + " Shekels each.");
         
 
         
